@@ -22,6 +22,7 @@ start.sbatch:
 source debug.sh
 
 srun python example.py
+print_time # Optional
 ```
 
 Exeuction
