@@ -8,7 +8,7 @@ Most of this code has been written by Norman Koch working at the TU Dresden. He 
 
 # Usage
 
-Include the debug.sh shellscript in your sbatch script using source:
+Paste the debug.sh shellscript in the same directory as your sbatch script and include it using source:
 
 start.sbatch:
 ```bash
@@ -25,7 +25,7 @@ srun python example.py
 print_time # Optional
 ```
 
-Exeuction
+Execution
 ```
 sbatch start.sbatch
 ```
